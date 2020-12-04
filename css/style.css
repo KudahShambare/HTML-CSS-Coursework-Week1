@@ -6,3 +6,67 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*INDEX*/
+ /* Page Layout*/
+ *{
+     font-size:large ;
+ }
+
+ /*Navigation*/
+ #navbar{
+     background-color: rgb(0, 139, 23);
+     height:50px;
+     top:0;
+     margin-left:0;
+ }
+ 
+ nav a{
+     color:whitesmoke;
+    display:inline-block;
+    margin-right:150px;
+    font-weight: bolder;
+    font-size: larger;
+    }
+     nav a:first-child{
+     margin-left: 20px;
+    
+}
+ /* Paragraphs*/
+ /*Headings*/
+ #page1 h1,h2{
+     text-align: center;
+     font-family:cursive;
+     color: rgb(51, 47, 47);
+ }
+/* Article*/
+#page1 article a{
+    color:red;
+}
+
+#page1 article{
+    margin-top:50px;
+    border:dotted;
+    border-color:rgb(0, 139, 23) ;
+    border-width: thick;
+    height: 500px;
+    padding: 15px;
+
+   
+}
+/*Footer*/
+#page1 footer{
+    background-color: seagreen;
+    height: 20px;
+}
+#page1 span{
+    content: "\00A9";
+}
+/*CAREER*/
+#job *{
+    background-color: cyan;
+}
+/*Body*/
+#way {
+    color:blueviolet;
+    padding:40px;
+}
