@@ -23,42 +23,54 @@
  nav a{
      color:whitesmoke;
     display:inline-block;
-    margin-right:150px;
     font-weight: bolder;
     font-size: larger;
     }
-     nav a:first-child{
+nav a:first-child{
      margin-left: 20px;
     
 }
+nav a:last-child{
+    margin-right: 20px;
+    margin-left: 1000px;;
+}
  /* Paragraphs*/
  /*Headings*/
- #page1 h1,h2{
+ h1,h2{
      text-align: center;
      font-family:cursive;
      color: rgb(51, 47, 47);
+     
  }
 /* Article*/
-#page1 article a{
+ article a{
     color:red;
 }
 
-#page1 article{
-    margin-top:50px;
+ .intro{
+    margin-top:5px;
+    margin-bottom:20px;
+    margin-right:80px;
+    margin-left: 80px;
     border:dotted;
     border-color:rgb(0, 139, 23) ;
     border-width: thick;
-    height: 500px;
-    padding: 15px;
-
-   
+    height: 200px;
+    padding: 50px; 
+}
+.intro:last-child{
+    height: 30px;
+    border:double ;
+    color:purple;
+    padding-top: 10px;
+    
 }
 /*Footer*/
-#page1 footer{
+ footer{
     background-color: seagreen;
     height: 20px;
 }
-#page1 span{
+ span{
     content: "\00A9";
 }
 /*CAREER*/
